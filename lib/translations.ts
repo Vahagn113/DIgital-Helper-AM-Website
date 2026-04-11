@@ -131,6 +131,12 @@ export const translations = {
     footer: {
       tagline: "Your partner in solving digital and job problems",
       rights: "All rights reserved."
+    },
+    settings: {
+      theme: "Theme",
+      language: "Language",
+      light: "Light",
+      dark: "Dark"
     }
   },
   am: {
@@ -263,6 +269,12 @@ export const translations = {
     footer: {
       tagline: "Ձեր գործընկերը թվային և աշխատանքային խնդիրների լուծման գործում",
       rights: "Բոլոր իրավունքները պաշտպանված են:"
+    },
+    settings: {
+      theme: "Թեմա",
+      language: "Լեզու",
+      light: "Լուսավոր",
+      dark: "Մութ"
     }
   },
   ru: {
@@ -395,6 +407,12 @@ export const translations = {
     footer: {
       tagline: "Ваш партнер в решении цифровых и карьерных задач",
       rights: "Все права защищены."
+    },
+    settings: {
+      theme: "Тема",
+      language: "Язык",
+      light: "Светлая",
+      dark: "Тёмная"
     }
   }
 };

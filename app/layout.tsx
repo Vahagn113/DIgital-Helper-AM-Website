@@ -1,10 +1,16 @@
 import type {Metadata} from 'next';
-import { Inter } from 'next/font/google';
+import { Roboto, Noto_Sans_Armenian } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-sans',
+const roboto = Roboto({
+  weight: ['100', '300', '400', '500', '700', '900'],
+  subsets: ['latin', 'cyrillic'],
+  variable: '--font-roboto',
+});
+
+const notoArmenian = Noto_Sans_Armenian({
+  subsets: ['armenian'],
+  variable: '--font-armenian',
 });
 
 export const metadata: Metadata = {
@@ -14,8 +20,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
-    <html lang="en" className={`${inter.variable} scroll-smooth`} suppressHydrationWarning>
-      <body className="font-sans antialiased bg-white text-black" suppressHydrationWarning>
+    <html lang="en" className={`${roboto.variable} ${notoArmenian.variable} scroll-smooth`} suppressHydrationWarning>
+      <body className="font-sans antialiased" suppressHydrationWarning>
         {children}
       </body>
     </html>
