@@ -133,7 +133,7 @@ export default function LandingPage() {
                 e.preventDefault();
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
-              className="text-lg lg:text-xl font-black tracking-tighter text-gray-900 dark:text-white"
+              className="text-lg lg:text-xl font-black tracking-tighter text-gray-900 dark:text-white text-transform: uppercase"
             >
               Digital<span className="text-blue-600 dark:text-blue-500">Helper</span>.AM
             </a>
