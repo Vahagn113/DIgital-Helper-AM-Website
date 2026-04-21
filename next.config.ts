@@ -2,7 +2,7 @@ import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  basePath: '/DIgital-Helper-AM-Website',
+  basePath: '/Digital-Helper-AM-Website',
   eslint: {
     ignoreDuringBuilds: true,
   },
